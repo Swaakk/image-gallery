@@ -12,3 +12,11 @@ body{
     max-width: 1136px;
     margin: 50px auto;
 }
+
+.gallery-list{
+    display: flex;
+}
+
+.gallery-list li{
+    width: 33.3%;
+}
