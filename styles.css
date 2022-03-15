@@ -13,6 +13,11 @@ body{
     margin: 50px auto;
 }
 
+.gallery-content h2{
+    text-align: center;
+    margin: 10px;
+}
+
 ul{
     list-style: none;
     margin: 0;
@@ -21,7 +26,7 @@ ul{
 .gallery-list{
     display: flex;
     flex-wrap: wrap;
-    background: #000;
+    gap: 20px;
 }
 
 .gallery-list li:nth-child(3n){
@@ -29,9 +34,9 @@ ul{
 }
 
 .gallery-list li{
-    width: calc(100%/3 - 40px/3);
-    margin-right: 20px;
-    margin-bottom: 20px;
+    /* width: calc(100%/3 - 40px/3); */
+    flex: 1 1 calc(100%/3 - 40px/3);
+    
 }
 
 .gallery-list li img{
